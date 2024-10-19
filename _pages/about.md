@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -18,8 +17,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a pre-final year CS major at the Indian Institute of Technology, Kharagpur. I am an aspiring researcher and have broadly explored my research interests in machine learning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+These excursions into various fields have been aided by the excellent guidance by top scholars and researchers such as Dr. Abir Das (Computer Vision), Dr. Vikash Kumar (Robotics), Dr. Abhishek Sinha (Online Convex Optimisation), Dr. Swagatam Das (Optimal Transport in ML), Dr. Amitalok Budkuley (Bayesian Persuasion), Dr. Sarani Bhattacharya (Hardware Security) and Dr. Shubhanshu Shekhar (Statistics).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am open to both theoretical and experimental works and believe that the most practical thing in this world is a good theory backed by empirical evidence.
