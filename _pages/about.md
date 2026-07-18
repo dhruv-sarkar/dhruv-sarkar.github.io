@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming graduate student at the MIT Media Lab
+subtitle: ধ্রুব সরকার
 
 profile:
   align: right
