@@ -3,9 +3,7 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 3
+cv_pdf: Dhruv_Sarkar_CV.pdf
+description: Education, research experience, honors, teaching, and service. Use the PDF icon to download the complete CV.
 ---

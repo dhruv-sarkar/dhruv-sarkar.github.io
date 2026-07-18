@@ -7,3 +7,26 @@
 
 "Vision":
   color: "#009f36"
+
+"ICML":
+  url: https://icml.cc/Conferences/2026
+  color: "#a31f34"
+
+"AISTATS":
+  url: https://virtual.aistats.org/virtual/2026/papers.html
+  color: "#244c66"
+
+"AAAI":
+  url: https://aaai.org/conference/aaai/aaai-26/
+  color: "#7a283d"
+
+"MATH4AI":
+  color: "#6f5a2d"
+
+"NeurIPS TSALM":
+  url: https://neurips.cc/virtual/2024/103023
+  color: "#4a376f"
+
+"Preprint":
+  url: https://arxiv.org/
+  color: "#6b7280"

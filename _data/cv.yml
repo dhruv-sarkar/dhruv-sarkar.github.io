@@ -1,97 +1,82 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Media Arts and Sciences
+      institution: Massachusetts Institute of Technology, Cambridge, USA
+      year: "2026–"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Incoming full-time graduate student in the Program in Media Arts and Sciences.
+        - 'Faculty advisor and research supervisor: <a href="https://www.media.mit.edu/people/raskar/overview/">Prof. Ramesh Raskar</a>.'
+    - title: B.Tech. (Honours) + M.Tech. in Computer Science and Engineering
+      institution: Indian Institute of Technology Kharagpur, India
+      year: "2021–2026"
       description:
-        - Description 1.
-        - Description 2.
+        - 'Thesis advisors: <a href="https://www.tifr.res.in/~abhishek.sinha/">Prof. Abhishek Sinha</a> and <a href="https://www.iitk.ac.in/sayak-ray-chowdhury">Prof. Sayak Ray Chowdhury</a>.'
+        - Ranked among the top five students at IIT Kharagpur by GPA at the end of freshman year.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Researcher
+      institution: Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE
+      year: "2026"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Department of Machine Learning, May–July 2026.
+        - Hosted by <a href="https://jkomiyama.github.io/">Prof. Junpei Komiyama</a>.
+    - title: Undergraduate Researcher
+      institution: Indian Institute of Technology Kharagpur, India
+      year: "2021–2026"
       description:
-        - Description 1.
-        - Description 2.
+        - Research on the theoretical foundations of machine learning and reinforcement learning.
+        - Advised by Prof. Abhishek Sinha, Prof. Sayak Ray Chowdhury, and Prof. Vaneet Aggarwal.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Sequential decision-making and interactive learning
+    - Test-time alignment of large language models
+    - Generative models
+    - Theoretical foundations of machine learning
+    - Stochastic optimization
+    - Computational optimal transport
+
+- title: Selected Publications
+  type: list
+  contents:
+    - <a href="/publications/">View the complete publication list</a>, including papers at ICML 2026, AISTATS 2026, AAAI 2026, and the NeurIPS 2024 TSALM Workshop.
+
+- title: Honors, Awards, and Grants
+  type: time_table
+  contents:
+    - year: "2026"
+      items:
+        - AAAI-26 Student Scholarship & Volunteer Award, including a $1,250 travel scholarship and complimentary registration.
+        - AISTATS 2026 registration fee waiver.
+    - year: "2021"
+      items:
+        - Joint Entrance Examination rank 309 among approximately one million candidates.
+        - Indian Statistical Institute B.Stat entrance test rank 38.
+    - year: "2020–2021"
+      items:
+        - Kishore Vaigyanik Protsahan Yojana Fellowship, awarded in Grades 11 and 12.
+        - National top 1% in both the Indian Olympiad Qualifier in Physics and Chemistry.
+    - year: "2019"
+      items:
+        - JBNSTS Junior Scholarship.
+        - Second place in the SUMMIT mathematics camp organized by the Indian Statistical Institute, Kolkata.
+
+- title: Teaching and Professional Service
+  type: list
+  contents:
+    - Teaching Assistant, Statistical Learning Theory (CS60018), IIT Kharagpur, Autumn 2025.
+    - Teaching Assistant, Programming and Data Structures (CS10003), IIT Kharagpur, Spring 2026.
+    - Reviewer, AAAI 2026.
+
+- title: Leadership and Outreach
+  type: list
+  contents:
+    - General Secretary Management, CodeClub, Department of Computer Science and Engineering, IIT Kharagpur.
+    - Mentor for first-year students, Student Welfare Group, IIT Kharagpur.
+    - Programming and Data Structures mentor for first-year students, Student Welfare Group, IIT Kharagpur.
+    - Reporter, The Scholars’ Avenue, IIT Kharagpur.
+    - Unit Leader, National Service Scheme, IIT Kharagpur.
