@@ -1348,29 +1348,6 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-.incoming-banner {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  margin-bottom: 1.5rem;
-  padding: 0.8rem 1rem;
-  color: var(--global-text-color);
-  background: rgba(163, 31, 52, 0.08);
-  border: 1px solid rgba(163, 31, 52, 0.2);
-  border-radius: 0.8rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-.incoming-dot {
-  flex: 0 0 auto;
-  width: 0.55rem;
-  height: 0.55rem;
-  background: var(--global-theme-color);
-  border-radius: 50%;
-  box-shadow: 0 0 0 0.3rem rgba(163, 31, 52, 0.12);
-}
-
 .research-areas {
   display: flex;
   flex-wrap: wrap;
@@ -1462,10 +1439,6 @@ ninja-keys::part(ninja-input-wrapper) {
 @media (max-width: 575px) {
   .profile img {
     max-height: 30rem;
-  }
-
-  .incoming-banner {
-    align-items: flex-start;
   }
 
   .news .table th {
