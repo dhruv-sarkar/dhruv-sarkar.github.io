@@ -20,10 +20,10 @@ social: true # includes social icons at the bottom of the page
 
 <div class="incoming-banner">
   <span class="incoming-dot" aria-hidden="true"></span>
-  Incoming M.S. student in Media Arts and Sciences at MIT · September 2026
+  Incoming graduate student at MIT · September 2026
 </div>
 
-I am an incoming graduate student in the [Program in Media Arts and Sciences](https://www.media.mit.edu/graduate-program/) at the **Massachusetts Institute of Technology**, where I will be advised by [Prof. Ramesh Raskar](https://www.media.mit.edu/people/raskar/overview/). I am broadly interested in building principled learning systems that can make reliable decisions, adapt through interaction, and align with human objectives.
+I am an incoming graduate student in the at the **Massachusetts Institute of Technology**, where I will be advised by [Prof. Ramesh Raskar](https://www.media.mit.edu/people/raskar/overview/). I am broadly interested in building principled learning systems that can make reliable decisions, adapt through interaction, and align with human objectives.
 
 I spent five years as an undergraduate at the **Indian Institute of Technology Kharagpur**, where I worked on the theoretical foundations of Machine Learning and Reinforcement Learning. I was fortunate to be advised by [Prof. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/), [Prof. Sayak Ray Chowdhury](https://www.iitk.ac.in/sayak-ray-chowdhury), and [Prof. Vaneet Aggarwal](https://www.cs.purdue.edu/people/faculty/vaneet.html).
 
