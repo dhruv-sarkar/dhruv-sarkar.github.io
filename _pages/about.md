@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:'<span lang="bn">ধ্রুব সরকার</span> · <span lang="hi">ध्रुव सरकार</span>'
+subtitle: '<span lang="bn">ধ্রুব সরকার</span> · <span lang="hi">ध्रुव सरकार</span>'
 
 profile:
   align: right
