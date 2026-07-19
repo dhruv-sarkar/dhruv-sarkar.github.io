@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I am an incoming graduate student at the **Massachusetts Institute of Technology**, where I will be advised by [Prof. Ramesh Raskar](https://www.media.mit.edu/people/raskar/overview/). I am broadly interested in building principled learning systems that can make reliable decisions, adapt through interaction, and align with human objectives.
 
-I spent five years as an undergraduate at the **Indian Institute of Technology Kharagpur**, where I worked on the theoretical foundations of Machine Learning and Reinforcement Learning. I was fortunate to be advised by [Prof. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/), [Prof. Sayak Ray Chowdhury](https://www.iitk.ac.in/sayak-ray-chowdhury), and [Prof. Vaneet Aggarwal](https://www.cs.purdue.edu/people/faculty/vaneet.html).
+I spent five years as an undergraduate at the **Indian Institute of Technology Kharagpur**, where I worked on the theoretical foundations of Machine Learning and Reinforcement Learning. I was fortunate to be advised by [Prof. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/), [Prof. Sayak Ray Chowdhury](https://sites.google.com/view/sayakraychowdhury/home?authuser=0), and [Prof. Vaneet Aggarwal](https://web.ics.purdue.edu/~vaneet/?_ga=2.163449404.1664644656.1784421556-252961791.1769179388).
 
 My current interests span sequential decision-making and interactive learning, test-time alignment of language models, generative models, stochastic optimization, and computational optimal transport. During May–July 2026, I was also a visiting researcher at the [Mohamed bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/), hosted by [Prof. Junpei Komiyama](https://jkomiyama.github.io/).
 
