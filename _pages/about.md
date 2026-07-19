@@ -6,12 +6,16 @@ subtitle: '<span lang="bn">ধ্রুব সরকার</span> · <span lang=
 
 profile:
   align: right
-  image: dhruv-sarkar.png
-  image_alt: Dhruv Sarkar at Marina Bay, Singapore
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p><strong>Marina Bay, Singapore</strong></p>
-    <p>January 2026</p>
+  images:
+    - file: dhruv-sarkar.png
+      alt: Dhruv Sarkar at Marina Bay, Singapore
+      caption: "Marina Bay, Singapore"
+      date: "January 2026"
+    - file: dhruv_pujo.png
+      alt: Dhruv Sarkar during Durga Puja in Kolkata, India
+      caption: "Durga Puja, Kolkata, India"
+      date: "October 2025"
+  image_circular: false
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
