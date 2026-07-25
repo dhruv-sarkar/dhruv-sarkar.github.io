@@ -39,6 +39,6 @@ My current interests span sequential decision-making and interactive learning, t
 
 <div class="profile-actions">
   <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/Dhruv_Sarkar_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV</a>
-  <a class="btn btn-sm z-depth-0" href="https://scholar.google.com/citations?user=OZFYJbAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+  <a class="btn btn-sm z-depth-0" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
   <a class="btn btn-sm z-depth-0" href="mailto:dhruv.sarkar223@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
 </div>
