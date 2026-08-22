@@ -60,7 +60,9 @@ layout: default
                   {% if photo.caption or photo.date %}
                     <div class="more-info">
                       {% if photo.caption %}
-                        <p><strong>{{ photo.caption }}</strong></p>
+                        <p>
+                          <strong>{{ photo.caption }}</strong>
+                        </p>
                       {% endif %}
 
                       {% if photo.date %}
