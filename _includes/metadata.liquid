@@ -55,7 +55,7 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{% if page.url == '/' %}{{ title }}{% elsif page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
@@ -65,7 +65,7 @@
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta name="twitter:title" content="{% if page.url == '/' %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
@@ -216,26 +216,29 @@
     {% capture link %}https://www.zotero.org/{{ site.zotero_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
-  {% if sameaslinks != blank %}
-    {% assign sameaslinks = sameaslinks | split: '' %}
+  {% assign schema_url = page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' %}
+  {% assign schema_description = page.description | default: site.description | strip %}
+  {% assign schema_headline = page.title | default: title | strip %}
+  {% if page.url == '/' %}
+    {% assign schema_headline = author_name | strip %}
   {% endif %}
 
   <script type="application/ld+json">
     {
-        "author":
-        {
-            "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+      "@context": "https://schema.org",
+      "@type": "{% if page.url == '/' %}ProfilePage{% elsif is_blog_post %}BlogPosting{% else %}WebPage{% endif %}",
+      "url": {{ schema_url | jsonify }},
+      "name": {{ schema_headline | jsonify }},
+      "headline": {{ schema_headline | jsonify }},
+      "description": {{ schema_description | jsonify }},
+      "{% if page.url == '/' %}mainEntity{% else %}author{% endif %}": {
+        "@type": "Person",
+        "@id": {{ site.url | append: '/#person' | jsonify }},
+        "name": {{ author_name | strip | jsonify }},
+        "url": {{ site.url | append: '/' | jsonify }}{% if page.url == '/' %},
+        "description": {{ schema_description | jsonify }}{% endif %}{% if sameaslinks != empty %},
+        "sameAs": {{ sameaslinks | jsonify }}{% endif %}
+      }
     }
   </script>
 {% endif %}
