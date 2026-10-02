@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an incoming graduate student at the **Massachusetts Institute of Technology**, where I will be advised by [Prof. Ramesh Raskar](https://www.media.mit.edu/people/raskar/overview/). I am broadly interested in building principled learning systems that can make reliable decisions, adapt through interaction, and align with human objectives.
+I am a graduate student at the **Massachusetts Institute of Technology**, where I am advised by [Prof. Ramesh Raskar](https://www.media.mit.edu/people/raskar/overview/). I am broadly interested in building principled learning systems that can make reliable decisions, adapt through interaction, and align with human objectives.
 
 I spent five years as an undergraduate at the **Indian Institute of Technology Kharagpur**, where I worked on the theoretical foundations of Machine Learning and Reinforcement Learning. I was fortunate to be advised by [Prof. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/) and [Prof. Sayak Ray Chowdhury](https://sites.google.com/view/sayakraychowdhury/home?authuser=0). I also had the opportunity to work with [Prof. Vaneet Aggarwal](https://web.ics.purdue.edu/~vaneet/?_ga=2.163449404.1664644656.1784421556-252961791.1769179388).
 
