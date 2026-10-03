@@ -26,8 +26,6 @@ I am a graduate student at the **Massachusetts Institute of Technology**, where 
 
 I spent five years as an undergraduate at the **Indian Institute of Technology Kharagpur**, where I worked on the theoretical foundations of Machine Learning and Reinforcement Learning. I was fortunate to be advised by [Prof. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/) and [Prof. Sayak Ray Chowdhury](https://sites.google.com/view/sayakraychowdhury/home?authuser=0). I also had the opportunity to work with [Prof. Vaneet Aggarwal](https://web.ics.purdue.edu/~vaneet/?_ga=2.163449404.1664644656.1784421556-252961791.1769179388).
 
-My current interests span sequential decision-making and interactive learning, test-time alignment of language models, generative models, stochastic optimization, and computational optimal transport. During May–July 2026, I was also a visiting student at the [Mohamed bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/), hosted by [Prof. Junpei Komiyama](https://jkomiyama.github.io/).
-
 <div class="research-areas" aria-label="Research interests">
   <span>Sequential decision-making</span>
   <span>Interactive learning</span>
