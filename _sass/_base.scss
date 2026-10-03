@@ -1373,6 +1373,47 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
+.undergrad-research-callout {
+  clear: both;
+  margin: 2rem 0 2.5rem;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid var(--global-divider-color);
+  border-left: 5px solid var(--global-theme-color);
+  border-radius: 0.75rem;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  h2 {
+    margin: 0 0 0.75rem;
+    color: var(--global-text-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.65;
+  }
+
+  .contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.85rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 0.35rem;
+    color: var(--global-theme-color);
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: var(--global-theme-color);
+      opacity: 0.85;
+    }
+  }
+}
+
 .news .table {
   tr {
     border-bottom: 1px solid var(--global-divider-color);
