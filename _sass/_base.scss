@@ -1348,23 +1348,6 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-.research-areas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin: 1.5rem 0;
-
-  span {
-    padding: 0.4rem 0.72rem;
-    color: var(--global-text-color);
-    background: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
-    font-size: 0.78rem;
-    font-weight: 500;
-  }
-}
-
 .profile-actions {
   display: flex;
   flex-wrap: wrap;
