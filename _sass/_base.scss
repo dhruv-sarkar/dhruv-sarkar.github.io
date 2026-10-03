@@ -1384,10 +1384,18 @@ ninja-keys::part(ninja-input-wrapper) {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 
   h2 {
-    margin: 0 0 0.75rem;
-    color: var(--global-text-color);
-    font-size: 1.3rem;
-    font-weight: 600;
+    display: inline-block;
+    margin: 0 0 1rem;
+    padding: 0.4rem 0.65rem;
+    border-radius: 0.25rem;
+    background: #a31f34;
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    text-transform: uppercase;
+    animation: recruiting-blink 2.4s ease-in-out infinite;
   }
 
   p {
@@ -1411,6 +1419,25 @@ ninja-keys::part(ninja-input-wrapper) {
       color: var(--global-theme-color);
       opacity: 0.85;
     }
+  }
+}
+
+@keyframes recruiting-blink {
+  0%,
+  42%,
+  62%,
+  100% {
+    opacity: 1;
+  }
+
+  52% {
+    opacity: 0.25;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .undergrad-research-callout h2 {
+    animation: none;
   }
 }
 

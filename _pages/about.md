@@ -33,7 +33,7 @@ I spent five years as an undergraduate at the **Indian Institute of Technology K
 </div>
 
 <section class="undergrad-research-callout" aria-labelledby="undergrad-research-title">
-  <h2 id="undergrad-research-title">Undergraduate research opportunities</h2>
+  <h2 id="undergrad-research-title">Recruiting</h2>
   <p>I am actively seeking strong undergraduate researchers to collaborate with. MIT undergraduates interested in my work are encouraged to reach out. I am also open to remote mentorship opportunities with exceptionally strong external undergraduates (e.g., IITs or equivalent) with rigorous backgrounds in CS, EE, or Mathematics. Please send your CV and a brief summary of your interests.</p>
   <a class="contact-link" href="mailto:dhruv.sarkar223@gmail.com?subject=Undergraduate%20research%20collaboration"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Get in touch</a>
 </section>
