@@ -26,12 +26,6 @@ I am a graduate student at the **Massachusetts Institute of Technology**, where 
 
 I spent five years as an undergraduate at the **Indian Institute of Technology Kharagpur**, where I worked on the theoretical foundations of Machine Learning and Reinforcement Learning. I was fortunate to be advised by [Prof. Abhishek Sinha](https://www.tifr.res.in/~abhishek.sinha/) and [Prof. Sayak Ray Chowdhury](https://sites.google.com/view/sayakraychowdhury/home?authuser=0). I also had the opportunity to work with [Prof. Vaneet Aggarwal](https://web.ics.purdue.edu/~vaneet/?_ga=2.163449404.1664644656.1784421556-252961791.1769179388).
 
-<div class="profile-actions">
-  <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/Dhruv_Sarkar_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV</a>
-  <a class="btn btn-sm z-depth-0" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
-  <a class="btn btn-sm z-depth-0" href="mailto:dhruv.sarkar223@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
-</div>
-
 <section class="undergrad-research-callout" aria-labelledby="undergrad-research-title">
   <h2 id="undergrad-research-title">Recruiting</h2>
   <p>I am actively seeking strong undergraduate researchers to collaborate with. MIT undergraduates interested in my work are encouraged to reach out. I am also open to remote mentorship opportunities with exceptionally strong external undergraduates (e.g., IITs or equivalent) with rigorous backgrounds in CS, EE, or Mathematics. Please send your CV and a brief summary of your interests.</p>
